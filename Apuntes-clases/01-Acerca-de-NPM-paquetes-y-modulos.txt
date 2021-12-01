@@ -1,0 +1,25 @@
+01 - ACERCA DE NPM, PAQUETES Y MODULOS
+
+En este curso aprederemos a trabajar con NPM, pero ¿Que es NPM?
+
+NPM (Node Package Manager), es un gestor de paquetes que es el mas popular de javascript
+donde encontraras una gran cantidad de recursos que podras implementar en tus proyectos,
+tambien puedes crear tus propios paqutes y compartirlos con toda la comunidad.
+
+Sitio web de NPM: https://www.npmjs.com/
+
+En este sitio podras encontrar un gran listado de recursos donde tu com desarrollador podras 
+implementar en tus proyectos desde librerias que son openSource hasta grandes proyevtos que 
+nos van a dar vida a nuestras aplicaciones com por ejemplo REACT que se puede instalar por 
+medio de NPM.
+
+Como desarrollador, es importante que cuando ingreses a alguna libreria dentro de NPM, no 
+debes olvidar revisar las caracteristicas de la libreria, asi como sus ultimas actualizaciones, 
+entre otras.
+
+NPM se encara de administrar los paquetes y tiene un sitio robusto donde encontraras muchos 
+paquetes y tambien podras crear estos paquetes y publicarlos, tener una serie de recursos para 
+la comunidad. 
+
+Vamos a entrer como funciona para instalar, como funciona para actualizar y crear una pequeña 
+libreria que vamos a publicar en NPM.

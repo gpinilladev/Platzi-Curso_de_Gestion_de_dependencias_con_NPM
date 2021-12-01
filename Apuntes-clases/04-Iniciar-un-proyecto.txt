@@ -1,0 +1,15 @@
+04 - INICIAR UN PROYECTO EN NODEJS
+
+En esta clase aprenderemos la importancia de iniciar un proyecto con NPM cada vez que inicias a 
+desarrollar una aplicacion web o un nuevo desarrollo de software basado en JavaScript.
+
+Esto partiendo de que nosotros vamos a dejar una configuracion conciertos datos importantes e 
+interesantes para poder configurar nuestro entorno asi como tambien compartirlo con otros desarrolladores
+y que todos puedan tener una nocion de lo que implementa nuestro proyecto.
+
+Vamos a desplazarnos a la terminal ya sea Windows, Linux o MacOSX, y estando en la terminal vamos a 
+ejecutar una serie de comandos para la configuracion inicial
+
+    1 - Vamos a crear una carpeta del proyecto con: mkdir jsnpm
+    2 - Despues de haber creado el directorio del proyecto, ingresamos al directorio con: cd jsnpm
+    3 - Una vez dentro de nuestra carpeta del proyecto, lo primero y como buena practica es hacer git init

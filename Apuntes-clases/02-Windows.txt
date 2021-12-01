@@ -1,0 +1,51 @@
+02 - INSTALAR NPM EN WINDOWS
+
+Para instalar NPM en Windows es necesario de ir al sitio de Nodejs
+
+Link sitio oficial: https://nodejs.org/en/
+
+Ya estando en el sitio encontraras 2 opciones: 
+
+	1 - Version LTS: 
+	LTS (Long Term Support), esta version le da un soporte mayor a todos los features que estan añadidos en esa version.
+	Esta version es mas para entornos de desarrollo y produccion.
+	
+	2 - Current:
+	Current es la version mas reciente con las ultimas modificaciones y actualizaciones para esa version.
+
+Le damos click a la version que deseemos.
+
+NOTA: Com recomendacion y como experiencia es mejor usar la version LTS, ya que muchas veces los frameworks como Angular o 
+React no soportan versiones muy actualizadas de la version Current, por esa razon sugiero usar siempre la version LTS.
+
+Una vez damos click en alguna de las opciones ya sea LTS o Current, esto automaticamente nos descargara un instalador de 
+extension .exe el cual nos va a permitir instalar Node y su ambiente de ejecucion. Para esta configuracion, el ejecutable 
+cuenta con una serie de indicaciones en la cual hace enfazis especial en su ruta de instalacion y sus variables de entorno.
+
+Este instalador nos va a indicar que instalara: NodeJS Runtimer, NPM y la documentacion en comand line y al final va a agregar al path
+del entorno para su ejecucion.
+
+Una vez termine la instalacion, debemos dirigirnos a nuestro CMD o Simbolo del sistema y debemos verificar que Nodejs este correctamente 
+instalado, para eso en nuestra linea de comandos digitamos el siguiente comando:
+
+	node --version
+	node -v
+	npm --version
+	npm -v
+
+Estos comando al ser ejecutados debieran mostrar la version que se instalo y de no ser asi, la instalacion fallo o quedo incompleta o en 
+el peor de sus casos no funciono. Pero claro que estos con inconvenientes que muy rara vez suceden y paradogicamente suceden con Windows.
+
+Una vez que verificamos la instalacion, podemos usar el stock de comandos disponibles de NPM para instalar y lo mas recomendable es instalar 
+la ultima version de npm que existe y para eso usamos el siguiente comando:
+
+	npm install -g npm@latest
+
+Este comando nos va a permitir comprobar si existe una version mas reciente de NPM que la que se instalo con el ejecutable de NodeJS, y si 
+existe, la va a instalar en nuestro sistema, asi vamos a garantizar que tengamos la ultima version.
+
+De esta forma queda completa la instalacion sobre Windows como sistema operativo.
+
+ 
+
+
